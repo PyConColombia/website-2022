@@ -14,3 +14,7 @@
     bottom: 0;
     z-index: 999;
 }
+
+footer .social-container a .social-icon {
+    padding-top: 7px;
+}
