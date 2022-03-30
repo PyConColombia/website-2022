@@ -8,11 +8,35 @@
     z-index: 999;
 }
 
+
+.block-left-small {
+    position: fixed;
+    left: 10%;
+    z-index: 999;
+}
+
+.block-left-small > img {
+    margin-top: 250px;
+    width:50%
+}
+
 .block-right {
     position: fixed;
     right: 10%;
     bottom: 0;
     z-index: 999;
+}
+
+.block-right-small {
+    position: fixed;
+    right: -10%;
+    bottom: 0;
+    z-index: 999;
+    margin-bottom: 200px;
+}
+
+.block-right-small > img {
+    width:50%
 }
 
 footer .social-container a .social-icon {
