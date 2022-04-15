@@ -19,3 +19,8 @@
 footer .social-container a .social-icon {
     padding-top: 7px;
 }
+
+.planet-footer {
+    width: 100%;
+    padding: 0px;
+}
