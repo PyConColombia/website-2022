@@ -1,3 +1,6 @@
+/* *{border: solid 1px red;} */
+
+
 .transition-mdl-hover {
     transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
     -moz-transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
@@ -77,6 +80,15 @@
     margin: 0 auto;
     max-width: 1100px;
   }
+
+  .keynote-container{
+    background-color: rgba(79, 11, 158, 0.3);
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+  }
+
+
   h1 {
     padding: 80px 0 50px;
     text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
@@ -122,6 +134,27 @@
     display: block;
     font-size: 45px;
   }
+
+  .text-description {
+    color: #fff;
+  }
+
+  .text-description p {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: left;
+    text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
+    margin: 20px 0px;
+  }
+
+  .text-description h2  {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
+    margin: 20px 0px;
+  }
+
   .text-container {
     color: #fff;
   }
@@ -175,8 +208,18 @@
     font-weight: 700;
     text-align: center;
     text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
-    padding: 200px 0 180px;
+    padding: 20px 0 50px;
   }
+
+  .text-info {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 450;
+    text-align: right;
+    text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
+    padding: 20px 0 20px;
+  }
+
   footer .social-container {
     text-align: center;
   }
@@ -251,7 +294,7 @@
       background-size: contain;
     }
     .text-container p {
-      font-size: 29px;
+      font-size: 23px;
       padding: 50px 0;
     }
     .text-container p span {
@@ -277,6 +320,24 @@
         font-weight: 300;
     }
 
+    .keynote-container{
+    margin: 10px;
+    }
+
+    .text-description p {
+      font-size: 20px;
+      font-weight: 500;
+      text-align: left;
+      text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
+    }
+  
+    .text-description h2 a {
+      font-size: 26px;
+      font-weight: 700;
+      text-align: left;
+      text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
+    }
+
     .planet-pink {
       padding: 0 0 170px;
     }
@@ -288,7 +349,7 @@
       font-size: 27px;
       font-weight: 700;
       margin-top: -20px;
-      padding: 110px 0;
+      padding: 10px 0;
     }
     footer .social-container a .social-icon {
       margin-bottom: 15px;
@@ -296,7 +357,7 @@
     footer p {
       font-size: 16px;
     }
-  }
+  } 
   #stars {
     content: "e";
     background: transparent;
