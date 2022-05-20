@@ -87,6 +87,9 @@
     margin: 30px;
     padding: 10px;
   }
+  .embed-responsive-item .video-speaker{
+    margin:100px;
+  }
 
 
   h1 {
@@ -107,7 +110,7 @@
     max-width: 1500px;
   }
   .title-intro {
-    margin: 50px auto;
+    margin: 0px auto;
     position: relative;
   }
   .title-intro img {
@@ -208,7 +211,7 @@
     font-weight: 700;
     text-align: center;
     text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
-    padding: 20px 0 50px;
+    padding: 0px 0 50px;
   }
 
   .text-info {
@@ -218,6 +221,16 @@
     text-align: right;
     text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
     padding: 20px 0 20px;
+  }
+
+  .keynote-img{
+    margin: 20 px;
+  }
+
+  .text-description a{
+    text-decoration-color: rgb(0, 255, 255);
+    text-underline-offset: 10px;
+
   }
 
   footer .social-container {
@@ -284,6 +297,22 @@
     footer p {
       font-size: 16px;
     }
+
+    .text-description p {
+      font-size: 20px;
+      font-weight: 500;
+      text-align: left;
+      text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
+      margin: 20px 0px;
+    }
+  
+    .text-description h2  {
+      font-size: 30px;
+      font-weight: 700;
+      text-align: left;
+      text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
+      margin: 20px 0px;
+    }
   }
   @media (max-width: 767px) {
     h1 span {
@@ -321,7 +350,7 @@
     }
 
     .keynote-container{
-    margin: 10px;
+    margin: 20px;
     }
 
     .text-description p {
