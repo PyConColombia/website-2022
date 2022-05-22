@@ -264,11 +264,11 @@
       background-size: 70%;
     }
     .title-intro .intro-container h2 {
-      font-size: 25px;
+      font-size: 23px;
       margin-left: 5%;
     }
     .title-intro .intro-container h2 span {
-      font-size: 40px;
+      font-size: 30px;
     }
     .text-container p {
       font-size: 47px;
@@ -325,6 +325,7 @@
     .text-container p {
       font-size: 23px;
       padding: 50px 0;
+      padding-right: 10px;
     }
     .text-container p span {
       font-size: 23px;
@@ -365,6 +366,14 @@
       font-weight: 700;
       text-align: left;
       text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
+    }
+
+    .title-intro .intro-container h2 {
+      font-size: 20px;
+      margin-left: 5%;
+    }
+    .title-intro .intro-container h2 span {
+      font-size: 25px;
     }
 
     .planet-pink {
