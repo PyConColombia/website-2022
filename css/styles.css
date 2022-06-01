@@ -292,6 +292,9 @@
     color: #fff;
   }
 
+  .navbar {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4))
+}
   .navbar .nav-primary{
     color:#4706a0;
     cursor: pointer;
@@ -299,8 +302,66 @@
     border-radius:10px;
   }
 
+  .navbar ul.navbar-nav li .alt {
+    background-color: #fff;
+    border-radius: 25px;
+    color: #4706a0 !important
+}
+  .navbar ul.navbar-nav li .dropdown-item.active {
+  background-color: initial;
+  color: #000
+}
 
   @media (max-width: 991px) {
+
+    .navbar {
+      background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4))
+    }
+
+    .scrolled {
+      background-image: linear-gradient(to top, rgba(255, 255, 255, 0), #fff)
+    }
+
+    ul.navbar-nav li {
+      padding: 20px
+    }
+
+    .navbar-collapse .scrollable-menu {
+      background-color: #fff;
+      height: auto;
+      max-height: 500px;
+      overflow-x: hidden;
+      margin: 0 -40px
+    }
+
+    .navbar-collapse .scrollable-menu .dropdown-menu a {
+      font-size: 2.4rem !important;
+      margin: 0 auto;
+      padding: 10px 0;
+      text-transform: uppercase;
+      width: auto !important
+    }
+
+    .navbar-collapse {
+      background-color: white;
+    }
+
+    .navbar-collapse li {
+      background-color: none;
+      font-weight: 300;
+      letter-spacing: 5px;
+      line-height: 1.2;
+      opacity: .98;
+      text-align: center;
+      text-transform: uppercase
+    }
+
+    .navbar-collapse li .nav-link,
+    .navbar-collapse li a.dropdown-item {
+        color: #310441 !important;
+        font-size: 2rem !important
+    }
+
     h1 span {
       font-size: 30px;
     }
