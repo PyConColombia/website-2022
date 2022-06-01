@@ -142,6 +142,10 @@
     color: #fff;
   }
 
+  .text-description-sponsors {
+    color: aqua;
+  }
+
   .text-description p {
     font-size: 26px;
     font-weight: 500;
@@ -156,6 +160,13 @@
     text-align: left;
     text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
     margin: 20px 0px;
+  }
+
+  .text-description-sponsors h2  {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
   }
 
   .text-container {
@@ -233,6 +244,24 @@
 
   }
 
+  body .social-container {
+    text-align: center;
+  }
+
+  body .social-container .social-icon {
+    background:#4706a0;
+    border-radius: 100px;
+    color:white;
+    display: inline-block;
+    height: 40px;
+    margin: 0 20px;
+    width: 40px;
+  }
+
+  body .social-container .social-icon i {
+    margin-top: 5px;
+  }
+
   footer .social-container {
     text-align: center;
   }
@@ -245,17 +274,32 @@
     margin: 0 20px;
     width: 40px;
   }
+
+  footer .social-container a .social-icon i {
+    margin-top: 5px;
+  }
   footer p {
     color: #fff;
-    font-size: 21px;
+    font-size: 10px;
     font-weight: 300;
     text-align: center;
     padding: 80px 0 70px;
     text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
+    height: 20px;
+    width: 20px;
   }
   footer a {
     color: #fff;
   }
+
+  .navbar .nav-primary{
+    color:#4706a0;
+    cursor: pointer;
+    background-color:aqua;
+    border-radius:10px;
+  }
+
+
   @media (max-width: 991px) {
     h1 span {
       font-size: 30px;
@@ -368,6 +412,13 @@
       text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
     }
 
+    .text-description-sponsors h2 a {
+      font-size: 18px;
+      font-weight: 700;
+      text-align: left;
+      text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
+    }
+
     .title-intro .intro-container h2 {
       font-size: 20px;
       margin-left: 5%;
@@ -389,6 +440,11 @@
       margin-top: -20px;
       padding: 10px 0;
     }
+
+    body .social-container a .social-icon {
+      margin-bottom: 15px;
+    }
+
     footer .social-container a .social-icon {
       margin-bottom: 15px;
     }
@@ -1501,6 +1557,10 @@
     right: 10%;
     bottom: 0;
     z-index: 999;
+}
+
+body .social-container a .social-icon {
+  padding-top: 7px;
 }
 
 
