@@ -1,5 +1,21 @@
 /* *{border: solid 1px red;} */
 
+.card-body a {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-decoration-color: rgb(0, 255, 255);
+  text-underline-offset: 10px;
+}
+
+.card-body a:hover{
+  color: #fff;
+}
+
+
+.card {
+  border:none;
+  margin: 20px;
+}
 
 .transition-mdl-hover {
     transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
@@ -87,6 +103,7 @@
     margin: 30px;
     padding: 10px;
   }
+
   .embed-responsive-item .video-speaker{
     margin:100px;
   }
