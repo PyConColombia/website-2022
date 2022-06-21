@@ -265,6 +265,10 @@
     text-align: center;
   }
 
+  body .social-icon2 {
+    color: #fff;
+  }
+
   body .social-container .social-icon {
     background:#4706a0;
     border-radius: 100px;
