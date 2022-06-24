@@ -333,6 +333,50 @@
   color: #000
 }
 
+  .schedule-text h3 {
+    text-align: center;
+    color: #fff;
+  }
+
+  .schedule-text h4 {
+    text-align: center;
+    color: #fff;
+  }
+
+  .schedule-text h6 {
+    text-align: center;
+    color:aqua
+  }
+
+  .schedule-text img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .schedule-text2 h4 {
+    color: #fff;
+  }
+
+  .schedule-text2 h5 {
+    color: #fff;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .schedule-text2 h6 {
+    color:aqua;
+  }
+
+  .schedule-text2 img {
+    margin-bottom: 10px;
+  }
+
+
+
+
+
   @media (max-width: 991px) {
 
     .navbar {
@@ -438,6 +482,30 @@
       text-align: left;
       text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
       margin: 20px 0px;
+    }
+
+    .schedule-text2 h4 {
+      color: #fff;
+      text-align: center;
+    }
+  
+    .schedule-text2 h5 {
+      color: #fff;
+      font-weight: 200;
+      font-style: italic;
+      text-align: center;
+    }
+  
+    .schedule-text2 h6 {
+      color:aqua;
+      text-align: center;
+    }
+  
+    .schedule-text2 img {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      display: block;
     }
   }
   @media (max-width: 767px) {
