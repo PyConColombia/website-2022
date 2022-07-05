@@ -343,6 +343,12 @@
     color: #fff;
   }
 
+  .schedule-text h5 {
+    color: #fff;
+    font-weight: 200;
+    font-style: italic;
+  }
+
   .schedule-text h6 {
     text-align: center;
     color:aqua
