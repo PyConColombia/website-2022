@@ -48,13 +48,14 @@
                     </li>
                   
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Schedule
                         </a>
                         
                         <ul class="dropdown-menu disable" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item disable" href="/Keynotes/keynotes.html">Keynotes</a></li>
                         <li><a class="dropdown-item disable" href="/Speakers/speakers.html">Speakers</a></li>
+                        <li><a class="dropdown-item disable" href="/schedule/schedule_saturday.html">Schedule</a></li>
                         </ul>
                     </li>
                 <li class="nav-item">
@@ -71,8 +72,8 @@
                 </li>
                 </ul>
                 <ul class="navbar-nav" style="margin-right: 50px;">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             v.2022
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="pycon-version">
@@ -122,6 +123,19 @@
                             </div>
                         </div>
 
+                        <div class="col-md-12 col-sm-12">
+                            <div class="row">
+                                <div class="col-6 d-flex justify-content-center ">
+                                        <a  href="/schedule/schedule_saturday.html" type="button" class="btn btn-primary btn-lg" style="width:30rem; margin-bottom:20px; background-color:#FF378F; box-shadow: 0px 0px 5px 3px  rgba(255, 255, 255, 0.8); border:none">Saturday - July 9</a>
+                                </div>
+                                <div class="col-6 d-flex justify-content-center">
+                                    <a href="/schedule/schedule_sunday.html" type="button" class="btn btn-outline-light btn-lg" style="width:40rem; margin-bottom:20px; background-color:rgba(255, 255, 255, 0.2)">Sunday - July 10 </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                         <!-- Speaker Card container-->
                         <div class="container" data-aos="zoom-in-down">
                             <div class="row d-flex justify-content-center" style="margin:0;">
@@ -130,13 +144,13 @@
 
                                         <!-- Schedule Section-->
                                         <hr style="color:white;">
-                                        <div class="row">
+                                        <div class="row schedule-back">
                                             <div class="schedule-text col-sm-12 col-xs-12 col-md-12 col-lg-1 col-xl-1">
-                                                <h3>7:00</h3>
+                                                <h3 style="margin-top:20px;">7:00</h3>
                                             </div>
                                             <div class="col-sm-12 col-xs-12 col-md-12 col-lg-10 col-xl-10 d-flex justify-content-center">
                                                 <div class="schedule-text align-items-center">
-                                                    <h6>Playvox Room</h6>
+                                                    <h6 style="margin-top:10px;">Playvox Room</h6>
                                                     <h4>Welcome</h4>
                                                 </div>
                                             </div>
@@ -174,43 +188,48 @@
                                             </div>
                                             <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
                                                 <div class="schedule-text2">
-                                                    <h6>Room 2</h6>
+                                                    <h6>Elastic Room</h6>
                                                     <h4>Gajendra Deshpande</h4>
                                                     <h5>Ensuring Inclusive Language in Speech and Writings using Python [EN]</h5>
                                                     <img src="/img/schedule/machine-learning.png" class="img-fluid" alt="core-python">
                                                 </div>
                                             </div>
                                         </div>
-                                        <hr style="color:white;">
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                                         <!-- Schedule Section-->
                                         <hr style="color:white;">
                                         <div class="row">
                                             <div class="schedule-text col-sm-12 col-xs-12 col-md-12 col-lg-1 col-xl-1">
-                                                <h3 style="color:white;">8:40</h3>
+                                                <h3>9:25</h3>
                                             </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Playvox Room</h6>
-                                                <h4 style="color:white;">Andrés Sebastián Arias Tabango</h4>
-                                                <h5 style="color:white; font-style:italic;font-weight: 200">Switch loops for itertools [EN] </h5>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                                                <div class="schedule-text2">
+                                                    <h6>Playvox Room</h6>
+                                                    <h4>Cristián Maureira-Fredes</h4>
+                                                    <h5>Viaje al core de Python: Entendiendo y hackeando CPython [ES]</h5>
+                                                    <img src="/img/schedule/core-python.png" class="img-fluid" alt="core-python">
+                                                </div>
                                             </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Room 2</h6>
-                                                <h4 style="color:white;">Gajendra Deshpande</h4>
-                                                <h5 style="color:white;font-style:italic;font-weight: 200">Ensuring Inclusive Language in Speech and Writings using Python [EN]</h5>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                                                <div class="schedule-text2">
+                                                    <h6>Elastic Room</h6>
+                                                    <h4>Mateo Restrepo</h4>
+                                                    <h5>Training PyTorch models on TPUs [EN]</h5>
+                                                    <img src="/img/schedule/machine-learning.png" class="img-fluid" alt="core-python">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Schedule Section-->
+                                        <div class="row schedule-back">
+                                            <div class="schedule-text col-sm-12 col-xs-12 col-md-12 col-lg-1 col-xl-1 ">
+                                                <h3 style="margin-top:15px;">10:10</h3>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-10 col-xl-10 d-flex justify-content-center">
+                                                <div class="schedule-text align-items-center">
+                                                    <p></p>
+                                                    <h4>Coffe Break</h4>
+                                                </div>
                                             </div>
                                         </div>
                                         <hr style="color:white;">
@@ -218,18 +237,60 @@
                                         <!-- Schedule Section-->
                                         <hr style="color:white;">
                                         <div class="row">
-                                            <div class="col-2">
-                                                <h3 style="color:white;">9:25</h3>
+                                            <div class="schedule-text col-sm-12 col-xs-12 col-md-12 col-lg-1 col-xl-1">
+                                                <h3>10:35</h3>
                                             </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Playvox Room</h6>
-                                                <h4 style="color:white;">Cristián Maureira-Fredes</h4>
-                                                <h5 style="color:white; font-style:italic;font-weight: 200">Viaje al core de Python: Entendiendo y hackeando CPython [ES] </h5>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                                                <div class="schedule-text2">
+                                                    <h6>Playvox Room</h6>
+                                                    <h4>Kevin Hernandez</h4>
+                                                    <h5>The magic of Python Generators [ES]</h5>
+                                                    <img src="/img/schedule/core-python.png" class="img-fluid" alt="core-python">
+                                                </div>
                                             </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Room 2</h6>
-                                                <h4 style="color:white;">Mateo Restrepo</h4>
-                                                <h5 style="color:white;font-style:italic;font-weight: 200">Training PyTorch models on TPUs [EN]</h5>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                                                <div class="schedule-text2">
+                                                    <h6>Elastic Room</h6>
+                                                    <h4>Pending</h4>
+                                                    <h5>More information coming soon</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Schedule Section-->
+                                        <hr style="color:white;">
+                                        <div class="row">
+                                            <div class="schedule-text col-sm-12 col-xs-12 col-md-12 col-lg-1 col-xl-1">
+                                                <h3>11:20</h3>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                                                <div class="schedule-text2">
+                                                    <h6>Playvox Room</h6>
+                                                    <h4>Juanita Gómez Romero</h4>
+                                                    <h5>Scientific Python: From GitHub to TikTok [EN]</h5>
+                                                    <img src="/img/schedule/community.png" class="img-fluid" alt="core-python">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                                                <div class="schedule-text2">
+                                                    <h6>Elastic Room</h6>
+                                                    <h4>María Ariza / Laura López</h4>
+                                                    <h5>Crea tu propio audio y descubre su magia con Python [ES]</h5>
+                                                    <img src="/img/schedule/artificial-intelligence.png" class="img-fluid" alt="core-python">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr style="color:white;">
+
+                                        <!-- Schedule Section-->
+                                        <div class="row schedule-back">
+                                            <div class="schedule-text col-sm-12 col-xs-12 col-md-12 col-lg-1 col-xl-1 ">
+                                                <h3 style="margin-top:15px;">12:00</h3>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-10 col-xl-10 d-flex justify-content-center">
+                                                <div class="schedule-text align-items-center">
+                                                    <p></p>
+                                                    <h4>Lunch Break</h4>
+                                                </div>
                                             </div>
                                         </div>
                                         <hr style="color:white;">
@@ -237,178 +298,133 @@
                                         <!-- Schedule Section-->
                                         <hr style="color:white;">
                                         <div class="row">
-                                            <div class="col-2">
-                                                <h3 style="color:white;">10:10</h3>
+                                            <div class="schedule-text col-sm-12 col-xs-12 col-md-12 col-lg-1 col-xl-1">
+                                                <h3>13:30</h3>
                                             </div>
-                                            <div class="col-10">
-                                                <h6 style="color:white;">Playvox Room</h6>
-                                                <h4 style="color:white;">Sponsor 3</h4>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                                                <div class="schedule-text2">
+                                                    <h6>Playvox Room</h6>
+                                                    <h4>Django Girls</h4>
+                                                    <img src="/img/schedule/community.png" class="img-fluid" alt="core-python">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                                                <div class="schedule-text2">
+                                                    <h6>Elastic Room</h6>
+                                                    <h4>Lightning Talks</h4>
+                                                    <img src="/img/schedule/community.png" class="img-fluid" alt="core-python">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Schedule Section-->
+                                        <hr style="color:white;">
+                                        <div class="row">
+                                            <div class="schedule-text col-sm-12 col-xs-12 col-md-12 col-lg-1 col-xl-1">
+                                                <h3>14:25</h3>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                                                <div class="schedule-text2">
+                                                    <h6>Playvox Room</h6>
+                                                    <h4>Javier Mansilla</h4>
+                                                    <h5>Crafting, Quality and Growing Pains [EN]</h5>
+                                                    <img src="/img/schedule/community-leadership.png" class="img-fluid" alt="core-python">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                                                <div class="schedule-text2">
+                                                    <h6>Elastic Room</h6>
+                                                    <h4>Camilo Andrés Soto Montoya</h4>
+                                                    <h5>PyCoornet para la Detección de Comportamiento Coordinado De Intercambio de Enlaces En Redes Sociales (Coordinated Link Sharing Behavior) [ES]</h5>
+                                                    <img src="/img/schedule/machine-learning.png" class="img-fluid" alt="core-python">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Schedule Section-->
+                                        <hr style="color:white;">
+                                        <div class="row">
+                                            <div class="schedule-text col-sm-12 col-xs-12 col-md-12 col-lg-1 col-xl-1">
+                                                <h3>15:10</h3>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                                                <div class="schedule-text2">
+                                                    <h6>Playvox Room</h6>
+                                                    <h4>Daniel Althviz Moré </h4>
+                                                    <h5>Contribuyendo a Código Abierto: De no saber Python a convertirme en un desarrollador core de Spyder [ES]</h5>
+                                                    <img src="/img/schedule/community-sci-computing.png" class="img-fluid" alt="core-python">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                                                <div class="schedule-text2">
+                                                    <h6>Elastic Room</h6>
+                                                    <h4>Violeta Ana Luz Sosa-Leon</h4>
+                                                    <h5>The power of tracking the invisible: Geoinformatics and Human Social Behavior [EN]</h5>
+                                                    <img src="/img/schedule/machine-learning.png" class="img-fluid" alt="core-python">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Schedule Section-->
+                                        <hr style="color:white;">
+                                        <div class="row">
+                                            <div class="schedule-text col-sm-12 col-xs-12 col-md-12 col-lg-1 col-xl-1">
+                                                <h3>15:55</h3>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-10 col-xl-10 d-flex justify-content-center">
+                                                <div class="schedule-text align-items-center">
+                                                    <h6>Playvox Room</h6>
+                                                    <h4>Elastic</h4>
+                                                    <img src="/img/schedule/sponsor.png" class="img-fluid" alt="core-python">
+                                                </div>
                                             </div>
                                         </div>
                                         <hr style="color:white;">
 
                                         <!-- Schedule Section-->
                                         <hr style="color:white;">
-                                        <div class="row">
-                                            <div class="col-2">
-                                                <h3 style="color:white;">10:35</h3>
+                                        <div class="row ">
+                                            <div class=" schedule-text col-sm-12 col-xs-12 col-md-12 col-lg-1 col-xl-1">
+                                                <h3>16:30</h3>
                                             </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Playvox Room</h6>
-                                                <h4 style="color:white;">Kevin Hernandez</h4>
-                                                <h5 style="color:white; font-style:italic;font-weight: 200">The magic of Python Generators [ES] </h5>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-10 col-xl-10 d-flex justify-content-center">
+                                                <div class="schedule-text">
+                                                    <h6>Playvox Room</h6>
+                                                    <h4 style="color:white;">Marlene Mhangami </h4>
+                                                    <img src="/img/schedule/psf-community.png" class="img-fluid" alt="core-python">
+                                                </div>
                                             </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Room 2</h6>
-                                                <h4 style="color:white;">Jigyasa Grover</h4>
-                                                <h5 style="color:white;font-style:italic;font-weight: 200">Sculpting Data for Machine Learning [EN]</h5>
+                                        </div>
+
+                                        <!-- Schedule Section-->
+                                        <hr style="color:white;">
+                                        <div class="row schedule-back">
+                                            <div class="schedule-text col-sm-12 col-xs-12 col-md-12 col-lg-1 col-xl-1">
+                                                <h3 style="margin-top:20px;">17:30</h3>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-10 col-xl-10 d-flex justify-content-center">
+                                                <div class="schedule-text align-items-center">
+                                                    <h6 style="margin-top:10px;">Playvox Room</h6>
+                                                    <h4>Closign Remarks</h4>
+                                                </div>
                                             </div>
                                         </div>
                                         <hr style="color:white;">
 
                                         <!-- Schedule Section-->
                                         <hr style="color:white;">
-                                        <div class="row">
-                                            <div class="col-2">
-                                                <h3 style="color:white;">11:20</h3>
+                                        <div class="row schedule-back">
+                                            <div class="schedule-text col-sm-12 col-xs-12 col-md-12 col-lg-1 col-xl-1">
+                                                <h3 style="margin-top:20px;">18:30 - 20:00</h3>
                                             </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Playvox Room</h6>
-                                                <h4 style="color:white;">Juanita Gómez Romero</h4>
-                                                <h5 style="color:white; font-style:italic;font-weight: 200">Scientific Python: From GitHub to TikTok [ES] </h5>
-                                            </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Room 2</h6>
-                                                <h4 style="color:white;">María Valentina Ariza / Laura López</h4>
-                                                <h5 style="color:white;font-style:italic;font-weight: 200">Crea tu propio audio y descubre su magia con Python [ES]</h5>
+                                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-10 col-xl-10 d-flex justify-content-center">
+                                                <div class="schedule-text align-items-center">
+                                                    <h6 style="margin-top:10px;">Gather Town</h6>
+                                                    <h4>Virtual Dinner</h4>
+                                                </div>
                                             </div>
                                         </div>
                                         <hr style="color:white;">
-
-                                        <!-- Schedule Section-->
-                                        <hr style="color:white;">
-                                        <div class="row">
-                                            <div class="col-2">
-                                                <h3 style="color:white;">12:00</h3>
-                                            </div>
-                                            <div class="col-8 d-flex justify-content-around">
-                                                <h4 style="color:white;">LUNCH BREAK</h4>
-                                            </div>
-                                        <hr style="color:white;">
-
-                                        <!-- Schedule Section-->
-                                        <hr style="color:white;">
-                                        <div class="row">
-                                            <div class="col-2">
-                                                <h3 style="color:white;">13:30</h3>
-                                            </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Playvox Room</h6>
-                                                <h4 style="color:white;">Django Girls - PyLadies</h4>
-                                            </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Room 2</h6>
-                                                <h4 style="color:white;">Lightning Talks</h4>
-                                            </div>
-                                        </div>
-                                        <hr style="color:white;">
-
-                                        <!-- Schedule Section-->
-                                        <hr style="color:white;">
-                                        <div class="row">
-                                            <div class="col-2">
-                                                <h3 style="color:white;">14:40</h3>
-                                            </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Playvox Room</h6>
-                                                <h4 style="color:white;">Anand S.</h4>
-                                                <h5 style="color:white; font-style:italic;font-weight: 200">Programming Minecraft with Python [EN] </h5>
-                                            </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Room 2</h6>
-                                                <h4 style="color:white;">Camilo Andrés Soto Montoya</h4>
-                                                <h5 style="color:white;font-style:italic;font-weight: 200">PyCoornet para la Detección de Comportamiento Coordinado De Intercambio de Enlaces En Redes Sociales (Coordinated Link Sharing Behavior) [ES]</h5>
-                                            </div>
-                                        </div>
-                                        <hr style="color:white;">
-
-                                        <!-- Schedule Section-->
-                                        <hr style="color:white;">
-                                        <div class="row">
-                                            <div class="col-2">
-                                                <h3 style="color:white;">15:30</h3>
-                                            </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Playvox Room</h6>
-                                                <h4 style="color:white;">Amir Tadrisi</h4>
-                                                <h5 style="color:white; font-style:italic;font-weight: 200">Running Python in the Browser with WebAssembly [EN] </h5>
-                                            </div>
-                                            <div class="col-5">
-                                                <h6 style="color:white;">Room 2</h6>
-                                                <h4 style="color:white;">Violeta Ana Luz Sosa-Leon</h4>
-                                                <h5 style="color:white;font-style:italic;font-weight: 200">The power of tracking the invisible: Geoinformatics and Human Social Behavior [EN]</h5>
-                                            </div>
-                                        </div>
-                                        <hr style="color:white;">
-
-                                        <!-- Schedule Section-->
-                                        <hr style="color:white;">
-                                        <div class="row">
-                                            <div class="col-2">
-                                                <h3 style="color:white;">16:20</h3>
-                                            </div>
-                                            <div class="col-8 d-flex justify-content-around">
-                                                <div>
-                                                    <h6 style="color:white;">Playvox Room</h6>
-                                                    <h4 style="color:white;">Elastic</h4>
-                                                </div>                                                
-                                            </div>
-                                        <hr style="color:white;">
-
-                                        <!-- Schedule Section-->
-                                        <hr style="color:white;">
-                                        <div class="row">
-                                            <div class="col-2">
-                                                <h3 style="color:white;">17:00</h3>
-                                            </div>
-                                            <div class="col-8 d-flex justify-content-around">
-                                                <div>
-                                                    <h6 style="color:white;">Playvox Room</h6>
-                                                    <h4 style="color:white;">Nina Zakharenko</h4>
-                                                </div>                                                
-                                            </div>
-                                        <hr style="color:white;">
-
-                                        <!-- Schedule Section-->
-                                        <hr style="color:white;">
-                                        <div class="row">
-                                            <div class="col-2">
-                                                <h3 style="color:white;">18:00</h3>
-                                            </div>
-                                            <div class="col-8 d-flex justify-content-around">
-                                                <div>
-                                                    <h6 style="color:white;">Playvox Room</h6>
-                                                    <h4 style="color:white;">Closign Remarks</h4>
-                                                </div>                                                
-                                            </div>
-                                        <hr style="color:white;">
-
-                                        <!-- Schedule Section-->
-                                        <hr style="color:white;">
-                                        <div class="row">
-                                            <div class="col-2">
-                                                <h3 style="color:white;">18:00</h3>
-                                            </div>
-                                            <div class="col-10 d-flex justify-content-around">
-                                                <div>
-                                                    <h6 style="color:white;">Playvox Room</h6>
-                                                    <h4 style="color:white;">Virtual Dinner</h4>
-                                                </div>                                                
-                                            </div>
-                                        <hr style="color:white;">
-
-
-
                                     </div>
                                 </div>
                             </div>
