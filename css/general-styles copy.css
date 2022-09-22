@@ -1,4 +1,4 @@
-a,body,h1,h2,h3,h4,h5,h6,li,p,ul{font-family:font-principal!important}
-body{background:url("../img/background.jpg") top center repeat-y;background-size:100% auto}
+a,body,h1,h2,h3,h4,h5,h6,li,p,ul {font-family:font-principal!important}
+body{background:url("../img/background-img.png") top center repeat-y;background-size:100% auto;background-repeat: repeat; background-color: blueviolet;}
 .section-container{display:block;margin:0 auto;max-width:1100px}
 

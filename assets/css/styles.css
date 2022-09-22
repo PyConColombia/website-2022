@@ -1,5 +1,42 @@
-/* *{border: solid 1px red;} */
+/* *{border: solid 1px red;}  */
 
+.card-body a {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-decoration-color: rgb(0, 255, 255);
+  text-underline-offset: 10px;
+}
+
+.section-container1 {
+  display: block;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.section-container1{
+  margin-top: 20%;
+}
+
+.section-container2 {
+  display: block;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.section-container2{
+  margin-top: 0px;
+}
+
+
+.card-body a:hover{
+  color: #fff;
+}
+
+
+.card {
+  border:none;
+  margin: 20px;
+}
 
 .transition-mdl-hover {
     transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
@@ -67,26 +104,26 @@
     font-family: "Montserrat", sans-serif !important;
   }
   body {
-    background: url("../img/background.webp") top center repeat-y;
-    background-attachment: fixed;
+    background: url("../img/general_resources/background-img.png");
+    background-repeat: no-repeat;
     background-size: 100% auto;
   }
   .asteroids {
     background: url("../img/asteroids.png") top center repeat-y;
     background-size: 100% auto;
   }
-  .section-container {
-    display: block;
-    margin: 0 auto;
-    max-width: 1100px;
+
+  .banner-section{
+    margin-top: 1%;
   }
 
   .keynote-container{
-    background-color: rgba(79, 11, 158, 0.3);
+    background-color: rgba(79, 11, 158, 0.4);
     border-radius: 20px;
     margin: 30px;
     padding: 10px;
   }
+
   .embed-responsive-item .video-speaker{
     margin:100px;
   }
@@ -175,9 +212,9 @@
   .text-container p {
     font-size: 52px;
     font-weight: 700;
-    text-align: right;
+    text-align: center;
     text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
-    padding: 150px 0 130px;
+    padding: 50px 0 130px;
   }
   .text-container p span {
     display: block;
@@ -248,6 +285,10 @@
     text-align: center;
   }
 
+  body .social-icon2 {
+    color: #fff;
+  }
+
   body .social-container .social-icon {
     background:#4706a0;
     border-radius: 100px;
@@ -312,7 +353,66 @@
   color: #000
 }
 
+  .schedule-text h3 {
+    text-align: center;
+    color: #fff;
+  }
+
+  .schedule-text h4 {
+    text-align: center;
+    color: #fff;
+  }
+
+  .schedule-text h5 {
+    color: #fff;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .schedule-text h6 {
+    text-align: center;
+    color:aqua
+  }
+
+  .schedule-text img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: block;
+  }
+
+  .schedule-text2 h4 {
+    color: #fff;
+  }
+
+  .schedule-text2 h5 {
+    color: #fff;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .schedule-text2 h6 {
+    color:aqua;
+  }
+
+  .schedule-text2 img {
+    margin-bottom: 30px;
+  }
+
+  .schedule-back {
+    background-color:rgba(255, 255, 255 ,0.3);
+    border-radius: 10px;
+  }
+
+
+
+
+
   @media (max-width: 991px) {
+    .section-container1{
+      margin-top: 10%;
+    }
+
 
     .navbar {
       background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4))
@@ -418,8 +518,40 @@
       text-shadow: 0 5px 10px rgba(9, 5, 56, 0.9);
       margin: 20px 0px;
     }
+
+    .schedule-text2 h4 {
+      color: #fff;
+      text-align: center;
+    }
+  
+    .schedule-text2 h5 {
+      color: #fff;
+      font-weight: 200;
+      font-style: italic;
+      text-align: center;
+    }
+  
+    .schedule-text2 h6 {
+      color:aqua;
+      text-align: center;
+    }
+  
+    .schedule-text2 img {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+      display: block;
+    }
   }
   @media (max-width: 767px) {
+
+    .section-container {
+      margin-top: 50px;
+      display: block;
+      margin: 0 auto;
+      max-width: 1100px;
+    }
+  
     h1 span {
       font-size: 25px;
       font-weight: 700;
@@ -428,8 +560,8 @@
       background-size: contain;
     }
     .text-container p {
-      font-size: 20px;
-      padding: 50px 0;
+      font-size: 12px;
+      padding: 20px 0;
       padding-right: 10px;
     }
     .text-container p span {
@@ -438,20 +570,20 @@
     }
 
     .text-container2 p {
-        font-size: 20px;
+        font-size: 12px;
         padding: 0px 0;
     }
       .text-container2 p span {
-        font-size: 20px;
+        font-size: 12px;
         font-weight: 300;
     }
 
     .text-container2 li {
-        font-size: 20px;
+        font-size: 12px;
         padding: 0px;
     }
       .text-container2 li span {
-        font-size: 20px;
+        font-size: 12px;
         font-weight: 300;
     }
 
@@ -1608,15 +1740,14 @@
 
 
 .block-left {
-    position: fixed;
-    left: 10%;
+    position:absolute;
+    left: 0%;
     z-index: 999;
 }
 
 .block-right {
-    position: fixed;
-    right: 10%;
-    bottom: 0;
+    position: absolute;
+    right: 0%;
     z-index: 999;
 }
 
